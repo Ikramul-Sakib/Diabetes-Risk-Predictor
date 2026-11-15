@@ -16,7 +16,6 @@ def load_artifacts():
 model, scaler = load_artifacts()
 
 st.title("Diabetes Risk Predictor")
-st.caption("ANN trained on the CDC Diabetes Health Indicators dataset. Educational use only, not medical advice.")
 
 YES_NO = {"No": 0, "Yes": 1}
 
