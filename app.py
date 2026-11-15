@@ -12,7 +12,6 @@ def load_artifacts():
     scaler = joblib.load("scaler.pkl")
     return model, scaler
 
-
 model, scaler = load_artifacts()
 
 st.title("Diabetes Risk Predictor")
